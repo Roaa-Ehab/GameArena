@@ -672,3 +672,13 @@ footer .policy a{
   text-decoration: none;
   color: oklch(0.707 0.022 261.325);
 }
+.location-card i{
+  color:var(--mainBackground) !important;
+}
+.location-card{
+  border:none!important;
+}
+
+ .join-community i{
+  color:var(--font-color-green) !important;
+ }
