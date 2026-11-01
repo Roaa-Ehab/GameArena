@@ -1,0 +1,509 @@
+@media (min-width: 992px) {
+    .section-inner {
+        width: 85%;
+    }
+
+    .form-hr p {
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: oklch(0.707 0.022 261.325);
+    }
+
+    .form-hr h3 {
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        color: rgb(203, 254, 28);
+    }
+
+    form button {
+        background-color: var(--font-color-green);
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        color: rgb(11, 14, 19);
+    }
+
+    .join-community h3 {
+        font-family: "Days One", sans-serif;
+        font-size: 24px !important;
+        font-weight: 700;
+        line-height: 32px;
+        color: rgb(11, 14, 19);
+    }
+
+    .contact-us form {
+        background-color: var(--card-inner);
+        width: 592px;
+        height: fit-content;
+    }
+
+    .location-card {
+        width: 592px;
+        height: 152px;
+    }
+
+    .team {
+        width: 284px;
+        height: 320px;
+        font-family: "Days One", sans-serif !important;
+    }
+
+    .team-player,
+    .team-champ {
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: oklch(0.707 0.022 261.325);
+    }
+
+    .logo-con {
+        background: radial-gradient(
+            ellipse at center,
+            rgba(203, 254, 28, 0.45) 0%,
+            rgba(203, 254, 28, 0.2) 35%,
+            rgba(11, 14, 19, 0) 55%
+        );
+    }
+
+    .logo-track img {
+        width: 84px;
+        height: 84px;
+        object-fit: contain;
+        flex-shrink: 0;
+    }
+
+    .logo-box {
+        width: 64px;
+        height: 64px;
+        background-color: var(--card-inner);
+    }
+
+    .hero-img img {
+        max-height: 380px;
+    }
+
+    .card-title {
+        font-family: "Days One", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        color: rgb(241, 241, 241);
+    }
+
+    .hero-h2 {
+        font-size: 3.75rem;
+    }
+
+    .carousel-item {
+        position: relative;
+        overflow: hidden;
+        max-width: 398px;
+        max-height: 291px;
+        border-radius: 2rem;
+        display: inline-block;
+    }
+
+    .more-title {
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        color: var(--text-color-offwhite);
+    }
+
+    .more-than-card {
+        width: 290px;
+        height: 290px;
+        background-color: var(--card-bg);
+    }
+
+    .section-title::before {
+        content: "";
+        width: 80px;
+        height: 3px;
+        background: linear-gradient(to right, transparent, #b8ff00, #ffffff);
+    }
+
+    .section-title::after {
+        content: "";
+        width: 80px;
+        height: 3px;
+        background: linear-gradient(to left, transparent, #b8ff00);
+    }
+
+    #carouselMultiple {
+        --bs-carousel-items: 3;
+    }
+
+    .carousel-item img {
+        max-width: 384px;
+        max-height: 291px !important;
+    }
+
+    .title-green {
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        color: rgb(203, 254, 28);
+    }
+
+    .title-white {
+        font-family: "Days One", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        color: var(--text-color-offwhite);
+    }
+
+    nav .drawer,
+    nav .drawer-top {
+        all: unset;
+        display: flex !important;
+        width: 100%;
+        background: transparent;
+    }
+
+    nav .drawer-header,
+    nav .navbar-toggler {
+        display: none !important;
+    }
+
+    nav .drawer-body {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    nav .drawer::backdrop,
+    nav .drawer-top::backdrop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .section-inner {
+        width: 92%;
+        max-width: 100%;
+    }
+
+    .hero-section {
+        min-height: auto;
+        padding: 9rem 1rem 4rem;
+    }
+
+    .hero-h2 {
+        font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    .hero-img img {
+        max-height: 320px;
+    }
+
+    .carousel-inner {
+        overflow: hidden;
+    }
+
+    .carousel-item {
+        max-width: 48%;
+    }
+
+    .more-than-card {
+        width: min(42%, 290px);
+    }
+
+    .team {
+        width: min(45%, 284px);
+        max-width: 100%;
+    }
+
+    .contact-us form,
+    .contact-us .location-card {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-us .inner-contact,
+    .contact-us .contact-container,
+    .contact-us .card-body {
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    footer .section-inner {
+        width: 92%;
+    }
+
+    nav dialog.drawer[open],
+    nav dialog.drawer-top[open] {
+        padding: 1.5rem 3rem 2rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav .container-fluid {
+        width: 92%;
+        justify-content: space-between !important;
+    }
+
+    nav .navbar-toggler {
+        display: inline-flex;
+        margin-left: auto;
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        color: var(--text-color-white, #ffffff);
+        padding: 0;
+    }
+
+    nav .navbar-toggler:hover,
+    nav .navbar-toggler:focus,
+    nav .navbar-toggler:active {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        color: var(--text-color-white, #ffffff);
+    }
+
+    nav .navbar-toggler-icon {
+        filter: brightness(0) invert(1);
+    }
+
+    nav dialog.drawer:not([open]),
+    nav dialog.drawer-top:not([open]) {
+        display: none !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
+    }
+
+    nav dialog.drawer[open],
+    nav dialog.drawer-top[open] {
+        all: revert;
+        position: fixed !important;
+        inset: 0 0 auto 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        max-height: 100dvh;
+        margin: 0 !important;
+        padding: 1.5rem 2rem 2rem;
+        border: none;
+        background: var(--mainBackground, #0b0e13);
+        color: var(--text-color-white, #ffffff);
+        overflow-y: auto;
+        box-sizing: border-box;
+        z-index: 1055;
+        display: block !important;
+    }
+
+    nav dialog.drawer[open]::backdrop,
+    nav dialog.drawer-top[open]::backdrop {
+        background: rgba(0, 0, 0, 0.65);
+    }
+
+    nav .drawer-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 0 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    nav .drawer-header::before {
+        content: "\f11b";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: rgb(203, 254, 28);
+        font-size: 1.25rem;
+        margin-right: 0.5rem;
+    }
+
+    nav .drawer-title {
+        display: block !important;
+        font-size: 0;
+    }
+
+    nav .drawer-title::after {
+        content: "GameArena";
+        font-family: "Days One", sans-serif;
+        color: rgb(203, 254, 28);
+        font-size: 1.2rem;
+        display: inline-block;
+    }
+
+    nav .drawer-header .btn-close {
+        filter: invert(1);
+    }
+
+    nav .drawer-body {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2rem;
+        padding: 0;
+    }
+
+    nav .drawer-body .navbar-brand {
+        display: none;
+    }
+
+    nav .drawer-body .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 1.75rem;
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .drawer-body .nav-link {
+        padding: 0;
+        color: var(--text-color-white, #ffffff);
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    nav .drawer-body .nav-link.active,
+    nav .drawer-body .nav-link:hover {
+        color: rgb(203, 254, 28);
+    }
+
+    nav .drawer-body form {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch !important;
+        gap: 1.5rem;
+        width: 100%;
+        margin: 0;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    nav .drawer-body form .fa-bell,
+    nav .drawer-body form .fa-message {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    nav .drawer-body form .fa-bell::after {
+        content: "Notifications";
+        color: var(--text-color-white);
+        font: 400 16px/24px "Chakra Petch", sans-serif;
+    }
+
+    nav .drawer-body form .fa-message::after {
+        content: "Messages";
+        color: var(--text-color-white);
+        font: 400 16px/24px "Chakra Petch", sans-serif;
+    }
+
+    nav .drawer-body form .btn {
+        width: 100%;
+        margin-top: 0.5rem;
+        padding: 0.85rem 1rem;
+        border-radius: 0.5rem;
+    }
+
+    nav.navbar .navbar-toggler {
+        display: inline-flex !important;
+        margin-left: auto;
+    }
+
+    nav.navbar > .container-fluid > dialog.drawer:not([open]),
+    nav.navbar > .container-fluid > dialog.drawer-top:not([open]) {
+        display: none !important;
+    }
+
+    nav.navbar > .container-fluid > .navbar-brand {
+        display: inline-flex !important;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section-inner {
+        width: 92%;
+        max-width: 100%;
+    }
+
+    .hero-section {
+        min-height: auto;
+        padding: 8rem 1rem 3rem;
+    }
+
+    .hero-h2 {
+        font-size: clamp(1.8rem, 8vw, 2.5rem);
+    }
+
+    .hero-img img {
+        max-width: 100%;
+        max-height: 260px;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .carousel-item {
+        max-width: 100%;
+    }
+
+    .more-than-cards {
+        gap: 1rem;
+    }
+
+    .more-than-card {
+        width: min(100%, 320px);
+        max-width: 100%;
+    }
+
+    .team {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-us form,
+    .contact-us .location-card {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .contact-us .inner-contact,
+    .contact-us .contact-container,
+    .contact-us .card-body {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .contact-us .card-text {
+        overflow-wrap: anywhere;
+    }
+
+    footer .section-inner {
+        width: 92%;
+    }
+}

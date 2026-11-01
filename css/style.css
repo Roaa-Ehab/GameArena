@@ -1,0 +1,674 @@
+:root {
+    scrollbar-gutter: auto !important;
+    --mainBackground:#0b0e13;
+    --get-in-touch:#0f1523;
+    --font-color-green:#cbfe1c;
+    --text-color-white:white;
+    --text-color-offwhite:rgb(241, 241, 241);
+    --card-bg:#1a1a1a;
+    --card-inner:#1e2939;
+   
+}
+
+body{
+    padding: 0;
+    margin:0;
+}
+
+nav .container-fluid{
+    width:85%;
+
+}
+
+nav{
+    background-color: var(--mainBackground);
+      font-family: "Chakra Petch", sans-serif;
+      border-bottom: 1px rgba(128, 128, 128, 0.274) solid;
+
+}
+.hero-h2 .gaming{
+     color:var(--font-color-green) !important;
+}
+.hero-h2{
+    font-family: "Days One", sans-serif;
+font-size: 30px;
+font-weight: 700;
+
+color: rgb(241, 241, 241);
+}
+.navbar-brand{
+    color:var(--font-color-green) !important;
+    font-family: "Chakra Petch", sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+}
+
+.nav-item a{
+     color: var(--text-color-white)!important;
+     font-family: "Chakra Petch", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+cursor: pointer;
+}
+.nav-item a:active{
+     color: var(--font-color-green) !important;
+    
+}
+.nav-item a:hover{
+     color: var(--font-color-green) !important;
+    
+}
+
+nav form .btn{
+    background-color: var(--font-color-green) !important;
+    font-family: "Chakra Petch", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: rgb(11, 14, 19);
+border: #739018 1px solid !important;
+padding:8px 24px !important;
+
+}
+
+nav form .btn:hover{
+
+}
+
+form i:hover{
+color:var(--font-color-green) !important;
+}
+.hero-section{
+    min-height: 100vh;
+    width:100%;
+    padding-top: 8rem;
+    background:
+            linear-gradient(rgba(0, 0, 0, 0.851), rgba(0, 0, 0, 0.878)),
+
+     url("../images/hero-bg.jpg");
+  
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.hero-img{
+
+}
+
+.hero-img img{
+    border: 5px var(--font-color-green) solid;
+  
+   max-width: 568px;
+    height: auto;
+    max-height: 224px;
+    object-fit: cover;
+}
+.hero-p{
+    font-family: "Chakra Petch", sans-serif;
+font-size: 13px;
+font-weight: 400;
+
+color: oklch(0.872 0.01 258.338);
+}
+
+.start-gaming{
+    background-color: var(--font-color-green);
+    color: black;
+    font-weight: 700;
+}
+
+.watch-tourments {
+background-color: transparent;
+font-weight: 700;
+color: var(--font-color-green);
+border:2px var(--font-color-green) solid;
+}
+
+.section-title::before {
+  content: "";
+  width: 50px;          
+  height: 3px;           
+  background: linear-gradient(to right, transparent, #b8ff00, #ffffff);
+
+}
+.section-title::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(to left, transparent, #b8ff00);
+}
+.cards-title{
+  font-family: "Chakra Petch", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+color: rgb(11, 14, 19);
+}
+
+#carouselMultiple {
+  --bs-carousel-items: 1;
+  --bs-carousel-items-gap: 1rem;
+}
+
+.view-games{
+    border:2px var(--font-color-green) solid;
+    font-family: "Chakra Petch", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+color:var(--font-color-green);
+    
+}
+.view-games:hover{
+   background-color: var(--font-color-green);
+   color: black;
+    
+}
+.our-games,
+.more-than,
+.sponsers,
+.our-team{
+      background-color:
+           var(--mainBackground);
+
+}
+.contact-us{
+  background-color: var(--get-in-touch);
+}
+.more-than{
+    position: relative !important;
+    overflow: visible !important;
+}
+
+.title-green{
+    font-family: "Chakra Petch", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 24px;
+color:var(--font-color-green);
+}
+.title-white{
+font-family: "Days One", sans-serif;
+font-size: 21px;
+font-weight: 700;
+line-height: 48px;
+color: var( --text-color-offwhite);
+}
+.more-title span{
+
+color:var(--font-color-green) !important;
+}
+
+.more-title{
+font-family: "Chakra Petch", sans-serif;
+font-size: 21px;
+font-weight: 700;
+line-height: 48px;
+color:var(--text-color-offwhite);
+}
+.back-icon:hover {
+border: var(--font-color-green) 2px solid;
+color:var(--font-color-green);
+}
+.back-icon:hover .b-icon {
+
+color:var(--font-color-green) !important;
+}
+.back-icon i{
+
+color:grey !important;
+transition: color 0.2s ease-in-out;
+}
+.carousel-item {
+  position: relative;
+  overflow: hidden;
+  max-width: 451px;
+  max-height: 338px;
+  border-radius: 2rem;
+}
+.carousel-item:hover {
+ border:var(--font-color-green) 2px solid;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-width: 100% !important;
+  height: 340px !important;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+  transform: scale(1);
+  
+}
+
+.carousel-item img:hover {
+  transform: scale(1.1);
+
+}
+
+.card-top {
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.badge{
+   
+    font-family: "Chakra Petch", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+color: var(--text-color-offwhite);
+}
+
+.card-bottom {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.card-shadow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 451px;
+  width: 100%;
+  height: 50%;
+  border-bottom-left-radius: var(--bs-border-radius-2xl, 2rem);
+  border-bottom-right-radius: var(--bs-border-radius-2xl, 2rem);
+  background: linear-gradient(
+    to bottom,
+    rgba(203, 254, 28, 0) 0%,
+    rgba(180, 240, 20, 0.2) 30%,
+    rgba(195, 255, 30, 0.6) 65%,
+    rgba(203, 254, 28, 0.95) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carousel-item img:hover ~ .card-top,
+.carousel-item img:hover ~ .card-bottom {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.carousel-item img:hover ~ .card-shadow {
+  opacity: 1;
+}
+.more-than-cards{
+color: var(--text-color-offwhite);
+}
+
+.more-than-card{
+  width:218px;
+  height:218px;
+background-color:var(--card-bg) ;
+}
+
+.logo-box{
+  width:42px;
+  height:42px;
+  background-color: var(--card-inner);
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+ border-top: 25px solid #ccff00;  
+  border-right: 25px solid transparent;
+  opacity: 0;                 
+  transition: opacity 0.3s ease;
+}
+
+.triangle2 {
+  width: 0;
+  height: 0;
+border-bottom: 25px solid #ccff00;  
+  border-left: 25px solid transparent;
+   opacity: 0;                 
+  transition: opacity 0.3s ease;
+}
+
+.more-than-card:hover .triangle,
+.more-than-card:hover .triangle2{
+  opacity: 1;
+}
+.more-than-card:hover {
+ border:2px solid var(--font-color-green);
+}
+
+.more-than-card:hover .logo-box i{
+  color: var(--card-inner) !important;
+}
+
+.more-than-card:hover .logo-box {
+ background-color: var(--font-color-green);
+}
+.card-title{
+  font-family: "Days One", sans-serif;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+color: rgb(241, 241, 241);
+}
+.card-bg-img{
+  background-image: url(../images/what-we-do-1.png);
+  background-position: center center;
+  background-size: cover;
+}
+.card-bg-img2{
+  background-image: url(../images/what-we-do-2.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.more-than::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    max-width: 600px;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #cbfe1c,
+        transparent
+    );
+    z-index: 999;
+    margin-bottom: 10px;;
+}
+
+.logo-wrapper {
+    overflow: hidden;
+    width: 100%;
+    
+}
+.logo-con{
+    background: radial-gradient(
+        ellipse at center,
+        rgba(203, 254, 28, 0.45) 5%,
+        rgba(203, 254, 28, 0.2) 35%,
+        rgba(11, 14, 19, 0) 90%
+    );
+}
+
+.logo-track {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+}
+.logo-track.reverse {
+    animation-direction: reverse;
+}
+
+.logo-track img {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.team{
+  width: 474px;
+  height:288px;
+  position: relative;
+}
+.team-1{
+   background-image: url(../images/avatar-1.png);
+  background-position: center center;
+  background-size: cover;
+}
+.team-2{
+   background-image: url(../images/avatar-2.png);
+  background-position: center center;
+  background-size: cover;
+}
+.team-3{
+   background-image: url(../images/avatar-3.png);
+  background-position: center center;
+  background-size: cover;
+}
+.team-4{
+   background-image: url(../images/avatar-4.png);
+  background-position: center center;
+  background-size: cover;
+}
+.team-5{
+   background-image: url(../images/avatar-5.png);
+  background-position: center center;
+  background-size: cover;
+}
+.team-6{
+   background-image: url(../images/avatar-6.png);
+  background-position: center center;
+  background-size: cover;
+}
+.team-7{
+   background-image: url(../images/avatar-7.png);
+  background-position: center center;
+  background-size: cover;
+}
+.team-8{
+   background-image: url(../images/avatar-8.png);
+  background-position: center center;
+  background-size: cover;
+}
+.team-champ{
+  font-family: "Chakra Petch", sans-serif;
+font-size: 10px;
+font-weight: 400;
+
+color: oklch(0.707 0.022 261.325);
+}
+.team-player {
+  font-family: "Chakra Petch", sans-serif;
+font-size: 10px;
+font-weight: 400;
+
+color: oklch(0.707 0.022 261.325);
+}
+
+.team-inner{
+  line-height: 1.0;
+  text-align: left;
+
+}
+
+.team-inner .team-player,
+.team-inner .team-champ {
+    margin: 0 !important;
+   
+}
+
+.team:hover .team-player{
+  color: var(--font-color-green);
+}
+
+.team::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    backdrop-filter: grayscale(1);
+    z-index: 1;
+    pointer-events: none;
+    transition: clip-path 0.6s ease;
+    clip-path: inset(0);
+}
+
+.location-card{
+  background-color: #1e2939;
+}
+
+.team:hover::before {
+    clip-path: inset(0 0 100% 0);
+}
+
+.team-title{
+  font-family: "Days One", sans-serif;
+font-weight: 700;
+line-height: 28px;
+color: rgb(255, 255, 255);
+}
+
+.contact-us form{
+  background-color: var(--card-inner);
+   
+      width:474px;
+      height:835px;
+    
+}
+.title-form{
+  font-family: "Days One", sans-serif;
+font-weight: 700;
+line-height: 32px;
+color: rgb(241, 241, 241);
+}
+
+form input ,form select ,form textarea{
+  background-color: #364153;
+  border-color: rgba(110, 110, 110, 0.553) !important; 
+}
+form ::placeholder ,
+select:invalid,
+ select.form-control, .form-control-caret ,
+textarea ::placeholder{
+font-family: "Chakra Petch", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: rgba(241, 241, 241, 0.408);
+}
+.form-control:focus {
+  border-color: var(--font-color-green) !important;
+  
+  outline: 0 !important;
+}
+form hr{
+ 
+  border:0.1px rgba(128, 128, 128, 0.21) solid;
+
+}
+
+ .location-card{
+  width:474px;
+  height: 133px;
+ }
+
+ .card-contact-title{
+font-family: "Days One", sans-serif;
+font-weight: 700;
+line-height: 28px;
+color: rgb(241, 241, 241);
+ }
+
+.card-text{
+font-family: "Chakra Petch", sans-serif;
+font-weight: 400;
+line-height: 24px;
+color: oklch(0.707 0.022 261.325);
+}
+@keyframes scroll {
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.location-icon{
+  background-color: var(--font-color-green);
+}
+
+.contact-icons i{
+  background-color: #0b0e13;
+  
+  color:var(--font-color-green) !important;
+  
+}
+
+.join-community{
+ height: fit-content !important;
+}
+.join-community h3{
+  font-family: "Days One", sans-serif;
+font-size: 22px !important;
+font-weight: 700;
+line-height: 32px;
+color: rgb(11, 14, 19);
+}
+
+.join-community p{
+  font-family: "Chakra Petch", sans-serif;
+
+font-weight: 400;
+
+color: rgb(11, 14, 19);
+}
+
+form button{
+  background-color: var(--font-color-green);
+  font-family: "Chakra Petch", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 28px;
+color: rgb(11, 14, 19);
+}
+.form-hr h3{
+font-family: "Chakra Petch", sans-serif;
+font-size: 22px;
+font-weight: 700;
+line-height: 32px;
+color: rgb(203, 254, 28);
+}
+
+.form-hr p{
+font-family: "Chakra Petch", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+color: oklch(0.707 0.022 261.325);
+}
+
+footer h4{
+  font-family: "Days One", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+color: rgb(241, 241, 241);
+}
+
+footer p{
+  font-family: "Chakra Petch", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: oklch(0.707 0.022 261.325);
+}
+
+footer i{
+  color: oklch(0.707 0.022 261.325);
+}
+
+footer i:hover , .footer-p p:hover ,.policy a:hover{
+  color:var(--font-color-green);
+}
+
+footer .policy a{
+  text-decoration: none;
+  color: oklch(0.707 0.022 261.325);
+}
